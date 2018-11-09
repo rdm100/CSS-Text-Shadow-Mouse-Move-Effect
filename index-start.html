@@ -36,6 +36,16 @@
 
 <script>
   const hero = document.querySelector(".hero");
+  const text = document.querySelector("h1");
+
+  function shadowEffect(e){
+    console.log(e);
+    const width = hero.offsetWidth;
+    const height = hero.offsetHeight;
+
+  }
+
+  hero.addEventListener("mousemove", shadowEffect);
 </script>
 </body>
 </html>
